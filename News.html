@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - InfoStream</title> <!-- Updated title -->
+    <style>
+        body {
+            background-image: url('paper.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+
+        /* Reset default styles */
+        body,
+        ul,
+        li {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #066775;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: "Lucida Handwriting", cursive;
+            font-size: 48px;
+            font-weight: Semi bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            /* Decreased font size */
+        }
+
+        /* Main content styles */
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* News category buttons */
+        .category-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .category-button {
+            font-size: 24px;
+            background-color: #066775;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="logo">InfoStream</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- Replace "Login" link with "News" link -->
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        .blue {
+            background: #ffde59;
+        }
+
+        .news {
+            box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5);
+            width: 890px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 4px;
+            padding: 1px;
+            -webkit-user-select: none;
+        }
+
+        .news span {
+            float: left;
+            color: #fff;
+            padding: 9px;
+            position: relative;
+            top: 1%;
+            box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4);
+            font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -webkit-user-select: none;
+            cursor: pointer;
+        }
+
+        .text1 {
+
+            box-shadow: none !important;
+            width: 750px;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="news blue">
+            <span>Latest News</span><span class="text1">
+                <marquee>BJP promises an exclusive NRI ministry in Telangana
+                </marquee>
+            </span>
+        </div>
+    </body>
+    </head>
+
+    <div class="main-content">
+        <h1>News</h1>
+        <!-- News category buttons -->
+        <div class="category-buttons">
+            <button class="category-button"
+                onclick="window.location.href='https://www.hindustantimes.com/india-news/rajasthans-political-shifts-the-48-swing-seats-and-other-influencing-factors-101700816264195.html'">Political
+                News</button>
+
+            <button class="category-button"
+                onclick="window.location.href='https://timesofindia.indiatimes.com/city/hyderabad/city-doc-loses-rs-19-7l-in-part-time-online-job-fraud/articleshow/105399297.cms'">
+                Crime News</button>
+            <button class="category-button"
+                onclick="window.location.href='https://www.thehindu.com/news/cities/Hyderabad/'"> Local News</button>
+
+            <button class="category-button"
+                onclick="window.location.href='https://www.thehindubusinessline.com/'">Business News</button>
+        </div>
+    </div>
+</body>
+
+</html>

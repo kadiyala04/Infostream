@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health - InfoStream</title>
+    <style>
+        body {
+            background-image: url('paper.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+
+        /* Reset default styles */
+        body,
+        ul,
+        li {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #066775;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: "Lucida Handwriting", cursive;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+        }
+
+        /* Main content styles */
+        .main-content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* News category buttons */
+        .category-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .category-button {
+            font-size: 24px;
+            background-color: #066775;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">InfoStream</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Health</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        .blue {
+            background: #ffde59;
+        }
+
+        .news {
+            box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5);
+            width: 890px;
+            margin: 20px auto;
+            overflow: hidden;
+            border-radius: 4px;
+            padding: 1px;
+            -webkit-user-select: none;
+        }
+
+        .news span {
+            float: left;
+            color: #fff;
+            padding: 9px;
+            position: relative;
+            top: 1%;
+            box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4);
+            font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -webkit-user-select: none;
+            cursor: pointer;
+        }
+
+        .text1 {
+
+            box-shadow: none !important;
+            width: 750px;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div class="news blue">
+            <span>Latest News</span><span class="text1">
+                <marquee>Monkeypox no longer a global health emergency, declares WHO
+                </marquee>
+            </span>
+        </div>
+    </body>
+
+    <div class="main-content">
+        <h1>Health</h1>
+        <!-- Health category buttons -->
+        <div class="category-buttons">
+            <button class="category-button"
+                onclick="window.location.href='https://www.hindustantimes.com/lifestyle/relationships/tips-to-foster-positive-mental-health-in-strict-parenting-homes-101700721472472.html'">Mental
+                Health</button>
+            <button class="category-button"
+                onclick="window.location.href='https://www.sciencedaily.com/news/health_medicine/nutrition/' ">Nutrition
+                and Diet</button>
+            <button class="category-button"
+                onclick="window.location.href='https://www.medicalnewstoday.com/articles/benefits-of-exercise'">Fitness
+                and Exercise</button>
+        </div>
+    </div>
+</body>
+
+</html>
